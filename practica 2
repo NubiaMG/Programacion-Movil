@@ -1,1 +1,12 @@
+const val pi = 3.14159f 
+fun main() {
 
+// Declarar una variable decimal val numero = 4.17f
+val numero=4.17f
+// Calcular el perímetro
+
+val perimetro = 2 * pi * numero
+
+println("El perimetro del circulo es: $perimetro")
+
+}
