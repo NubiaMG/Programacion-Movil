@@ -1,6 +1,6 @@
+//Clase Enemy
 package Clases
 
-//Esta es la clase enemy
 open class Enemy (val name: String, val strength:Int){
     init {
         println("Iniciando superclase")
