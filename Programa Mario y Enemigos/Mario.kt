@@ -1,8 +1,9 @@
+//Clase Mario
 package Clases
 import kotlin.concurrent.schedule
 import java.util.*
 
-class Mario(var vidas: Int = 3) {   //Setear el numero de vidas por defecto en el contructor
+class Mario(var vidas: Int = 3) {   
     init {
         println("It's a me! Mario!")
     }
