@@ -1,9 +1,10 @@
+//Esta es la clase koopa
 package Clases
 
 class Koopa:
     Enemy("Koopa", 2){
     override fun collision(collider: String) {
-        //super.collision(collider)
+        
         when(collider){
             "Weapon" -> {
                 var state = "Shell"
@@ -14,4 +15,3 @@ class Koopa:
         println("Usando la colisión de la clase Enemy")
     }
 }
-//Polimorfismo: "Muchas Formas"
